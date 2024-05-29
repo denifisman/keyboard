@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const imageCount = 10;
 
     for (let i = 1; i <= imageCount; i++) {
-        const imgSrc = `images/keyboard deni fisman bulaa${i}.png`;
+        const imgSrc = `images/keyboard deni fisman bulaa${i}.jpeg`;
         const imgAlt = `foto keyboard deni fisman bulaa ${i}`;
         const galleryItem = document.createElement('div');
         galleryItem.classList.add('gallery-item');
